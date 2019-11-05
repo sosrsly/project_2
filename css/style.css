@@ -1,0 +1,229 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    position: relative;
+}
+
+nav {
+    background-color: #212121;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    padding: 10px 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header .menu {
+    list-style-type: none;
+}
+
+.menu .ul_item a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    border-right: 2px dotted white;
+    padding-right: 37px;
+}
+
+.subheader {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 84px;
+    position: absolute;
+    width: 100%;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Roboto - Thin";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.subheader .subheader_calling {
+    margin-top: 19px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subheader .number {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.subheader button {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.promo {
+    min-height: 799px;
+    background-image: url(/img/background_main.png);
+}
+
+.promo .promo_header {
+    margin: 0;
+    padding-top: 150px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    line-height: 46px;
+}
+
+.promo .promo_subheader {
+    margin: 0;
+    margin-top: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.promo .promo_contant {
+    margin-top: 23px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto; 
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%); 
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 68px;
+    text-transform: uppercase;
+}
+
+.work {
+    min-height: 800px;
+}
+
+.work .work_advantage {
+    margin: 79px auto 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    }
+
+.work .work_advantage .work_logo_text {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.work .work_header {
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.work .row {
+    margin-top: 40px;
+}
+
+.work .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.work .work_contant_block {
+  width: 480px;
+  height: 141px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .work_contant_block .work_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+
+.work .work_contant_block .work_text {
+    width: 343px;
+    height: 142px;
+    color: #202020;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.work .work_contant_block .work_text span {
+
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.work .work_contant_block .work_text_6 {
+    padding-top: 16px;
+}
